@@ -27,6 +27,7 @@
   "homepage": "https://github.com/Nordth/dojo-webpack-loader-examples#readme",
   "dependencies": {
     "dojo-webpack-loader": "^0.9.1",
-    "webpack": "^1.12.15"
+    "webpack-loader-dojo": "2.0.2",
+    "webpack": "2.5.0"
   }
 }

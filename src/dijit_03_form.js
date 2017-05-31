@@ -7,7 +7,7 @@ require("dijit/form/FilteringSelect");
 require("dijit/form/Form");
 require("dijit/form/Button");
 
-var dojoRequire = require("dojo-webpack-loader/lib/dojo-require");
+var dojoRequire = require("webpack-loader-dojo/lib/dojo-require");
 dojoRequire.register("dojo/store/JsonRest", require("dojo/store/JsonRest"));
 
 parser.parse();

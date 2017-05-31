@@ -8,7 +8,7 @@ var _WidgetBase = require('dijit/_WidgetBase');
 var _TemplatedMixin = require('dijit/_TemplatedMixin');
 var List = require('dgrid/OnDemandList');
 var Selection = require('dgrid/Selection');
-var template = require('raw!./Select.html');
+var template = require('raw-loader!./Select.html');
 
 var DropDown = declare([ List, Selection ]);
 

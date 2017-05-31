@@ -2,7 +2,7 @@
 
 var parser = require("dojo/parser");
 
-// All dijit classes will be registered in dojo-webpack-loader/lib/dojo-require automatically
+// All dijit classes will be registered in webpack-loader-dojo/lib/dojo-require automatically
 require("dijit/layout/BorderContainer");
 require("dijit/layout/TabContainer");
 require("dijit/layout/ContentPane");

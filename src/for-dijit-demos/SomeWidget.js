@@ -2,9 +2,9 @@ var declare = require("dojo/_base/declare");
 var _WidgetBase = require("dijit/_WidgetBase");
 var _OnDijitClickMixin = require("dijit/_OnDijitClickMixin");
 var _TemplatedMixin = require("dijit/_TemplatedMixin");
-var template = require("raw!./SomeWidget.html");
+var template = require("raw-loader!./SomeWidget.html");
 
-var dojoRequire = require("dojo-webpack-loader/lib/dojo-require"); // We should register widget to able using it in templates
+var dojoRequire = require("webpack-loader-dojo/lib/dojo-require"); // We should register widget to able using it in templates
 module.exports = dojoRequire.register("demo/SomeWidget",
     declare([_WidgetBase, _OnDijitClickMixin, _TemplatedMixin], {
         //	set our template
